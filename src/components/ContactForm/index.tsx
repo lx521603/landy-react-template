@@ -2,7 +2,7 @@ import { Row, Col } from "antd";
 import { withTranslation } from "react-i18next";
 import { Slide } from "react-awesome-reveal";
 import { ContactProps } from "./types";
-import Block from "../Block";
+import Block from "./Block";
 import { ContactContainer } from "./styles";
 
 const Contact = ({ title, content, id, t }: ContactProps) => {
