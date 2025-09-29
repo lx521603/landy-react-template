@@ -33,7 +33,7 @@ const Contact = ({ title, content, id, t }: ContactProps) => {
                 <Input
                   type="text"
                   name="name"
-                  placeholder="Your Name"
+                  placeholder="称呼"
                   value={values.name || ""}
                   onChange={handleChange}
                 />
@@ -43,7 +43,7 @@ const Contact = ({ title, content, id, t }: ContactProps) => {
                 <Input
                   type="text"
                   name="email"
-                  placeholder="Your Email"
+                  placeholderY"邮件"
                   value={values.email || ""}
                   onChange={handleChange}
                 />
@@ -51,7 +51,7 @@ const Contact = ({ title, content, id, t }: ContactProps) => {
               </Col>
               <Col span={24}>
                 <TextArea
-                  placeholder="Your Message"
+                  placeholder="信息"
                   value={values.message || ""}
                   name="message"
                   onChange={handleChange}
@@ -59,7 +59,7 @@ const Contact = ({ title, content, id, t }: ContactProps) => {
                 <ValidationType type="message" />
               </Col>
               <ButtonContainer>
-                <Button name="submit">{t("Submit")}</Button>
+                <Button name="submit">{t("提交")}</Button>
               </ButtonContainer>
             </FormGroup>
           </Slide>
@@ -70,3 +70,4 @@ const Contact = ({ title, content, id, t }: ContactProps) => {
 };
 
 export default withTranslation()(Contact);
+
