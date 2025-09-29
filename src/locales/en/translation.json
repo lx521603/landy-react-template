@@ -1,29 +1,22 @@
 {
-  "About": "关于我们",
-  "Policy": "Policy",
-  "Mission": "任务",
-  "Product": "产品",
-  "Tell us everything": "Tell us everything",
-  "Contact": "联系我",
-  "Do you have any question? Feel free to reach out.": "Do you have any question? Feel free to reach out.",
-  "Let's Chat": "Let's Chat",
-  "Application Security": "Application Security",
-  "Software Principles": "Software Principles",
-  "Support Center": "Support Center",
-  "Customer Support": "Customer Support",
-  "Address": " 地址",
-  "Press": "Press",
-  "Careers & Culture": "Careers & Culture",
-  "Language": "Language",
-  "Explore": "Explore",
-  "Learn more": "Learn more",
-  "Get started": "让我们开始",
-  "Submit": "Submit",
-  "Message" : "Message",
-  "Your Message": "Your Message",
-  "Name" : "Name",
-  "Your Name": "Your Name",
-  "Email" : "Email",
-  "Your Email": "Your Email"
+  "hero_title": "Dopi 不脱妆粉底液",
+  "hero_subtitle": "懂你的美妆专家，24 小时不脱妆，持久服帖，自然无瑕。",
+  "cta": "立即选购",
+
+  "features_title": "为什么选择 Dopi？",
+  "feature1": "24 小时持妆不脱妆",
+  "feature2": "轻薄透气，不卡粉",
+  "feature3": "专业美妆师推荐",
+
+  "testimonial_title": "用户好评",
+  "testimonial1": "上妆一整天都不花妆，太惊喜了！",
+  "testimonial2": "质地轻盈，皮肤很自然，完全不厚重。",
+  "testimonial3": "真的做到不脱妆，工作一天妆容依旧完美。",
+
+  "cta_section_title": "准备好遇见最好的自己了吗？",
+  "cta_section_button": "立即购买 Dopi 粉底液",
+
+  "footer_rights": "© 2025 Dopi Cosmetics. All rights reserved."
 }
+
 
