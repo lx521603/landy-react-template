@@ -51,36 +51,36 @@ const Footer = ({ t }: { t: TFunction }) => {
         <Container>
           <Row justify="space-between">
             <Col lg={10} md={10} sm={12} xs={12}>
-              <Language>{t("Contact")}</Language>
-              <Large to="/">{t("Tell us everything")}</Large>
+              <Language>{t("联系我们")}</Language>
+              <Large to="/">{t("告诉我们使用体验")}</Large>
               <Para>
-                {t(`Do you have any question? Feel free to reach out.`)}
+                {t(`留下你的建议和需要改进的地方`)}
               </Para>
-              <a href="mailto:l.qqbadze@gmail.com">
-                <Chat>{t(`Let's Chat`)}</Chat>
+              <a href="mailto:x@ouro.ch">
+                <Chat>{t(`开始对话`)}</Chat>
               </a>
             </Col>
             <Col lg={8} md={8} sm={12} xs={12}>
-              <Title>{t("Policy")}</Title>
-              <Large to="/">{t("Application Security")}</Large>
-              <Large to="/">{t("Software Principles")}</Large>
+              <Title>{t(" 注意事项")}</Title>
+              <Large to="/">{t("使用技巧")}</Large>
+              <Large to="/">{t("注意事项")}</Large>
             </Col>
             <Col lg={6} md={6} sm={12} xs={12}>
               <Empty />
-              <Large to="/">{t("Support Center")}</Large>
-              <Large to="/">{t("Customer Support")}</Large>
+              <Large to="/">{t("支持中心")}</Large>
+              <Large to="/">{t("客户服务")}</Large>
             </Col>
           </Row>
           <Row justify="space-between">
             <Col lg={10} md={10} sm={12} xs={12}>
               <Empty />
-              <Language>{t("Address")}</Language>
-              <Para>Rancho Santa Margarita</Para>
-              <Para>2131 Elk Street</Para>
-              <Para>California</Para>
+              <Language>{t("地址")}</Language>
+              <Para>落日集市，新玩厂</Para>
+              <Para>芒市</Para>
+              <Para>云南</Para>
             </Col>
             <Col lg={8} md={8} sm={12} xs={12}>
-              <Title>{t("Company")}</Title>
+              <Title>{t("公司")}</Title>
               <Large to="/">{t("About")}</Large>
               <Large to="/">{t("Blog")}</Large>
               <Large to="/">{t("Press")}</Large>
@@ -165,3 +165,4 @@ const Footer = ({ t }: { t: TFunction }) => {
 };
 
 export default withTranslation()(Footer);
+
