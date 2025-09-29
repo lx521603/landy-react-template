@@ -34,17 +34,17 @@ const Header = ({ t }: { t: TFunction }) => {
     return (
       <>
         <CustomNavLinkSmall onClick={() => scrollTo("about")}>
-          <Span>{t("About")}</Span>
+          <Span>{t("选择我们")}</Span>
         </CustomNavLinkSmall>
         <CustomNavLinkSmall onClick={() => scrollTo("mission")}>
-          <Span>{t("Mission")}</Span>
+          <Span>{t("加盟代理")}</Span>
         </CustomNavLinkSmall>
         <CustomNavLinkSmall onClick={() => scrollTo("product")}>
-          <Span>{t("Product")}</Span>
+          <Span>{t("关于我们")}</Span>
         </CustomNavLinkSmall>
         <CustomNavLinkSmall
           style={{ width: "180px" }}
-          onClick={() => scrollTo("contact")}
+          onClick={() => scrollTo(" 联系我们")}
         >
           <Span>
             <Button>{t("Contact")}</Button>
@@ -72,7 +72,7 @@ const Header = ({ t }: { t: TFunction }) => {
           <Col style={{ marginBottom: "2.5rem" }}>
             <Label onClick={toggleButton}>
               <Col span={12}>
-                <Menu>Menu</Menu>
+                <Menu>菜单</Menu>
               </Col>
               <Col span={12}>
                 <Outline />
@@ -87,3 +87,4 @@ const Header = ({ t }: { t: TFunction }) => {
 };
 
 export default withTranslation()(Header);
+
