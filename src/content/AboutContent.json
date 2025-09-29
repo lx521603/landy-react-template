@@ -1,16 +1,18 @@
 {
-  "title": "Light, fast & responsive",
-  "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
+  "title": "即刻体验24小时不脱妆奇迹",
+  "text": "告别补妆负担，拥抱自信全天
+选择DOPI，选择无懈可击的美丽",
   "section": [
     {
-      "title": "Why Antd?",
-      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
+      "title": "为什么选 Dopi",
+      "content": "一支解决所有持妆烦恼，让你全天候保持完美状态",
       "icon": "notes.svg"
     },
     {
-      "title": "Why styled-components?",
-      "content": "Styled Components gives you total control over your components.",
+      "title": "创新持妆科技",
+      "content": "采用独家「长效锁色膜技术」，在肌肤表面形成轻盈保护层，有效锁住色彩与光泽，同时保持肌肤自由呼吸。",
       "icon": "notes.svg"
     }
   ]
 }
+
